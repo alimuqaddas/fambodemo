@@ -1,0 +1,27 @@
+{
+	"c2dictionary":true,
+	"data":
+	{
+		"startButtonText":"START",
+		"totalQuestions":"10",
+		"rightText":"Correct:",
+		"wrongText":"False:",
+		"playAgain":"Try Again !!!"
+	}
+}
+|
+{
+	"c2array":true, "size":[10,8,1],"data":
+		[
+			[["2"],["1"],["6"],["1"],["8"],["1"],["4"],["What fraction is the red part of the square?"]],
+			[["1"],["3"],["8"],["1"],["6"],["1"],["4"],["What fraction is the red part of the square?"]],
+			[["1"],["1"],["9"],["1"],["18"],["1"],["6"],["What fraction is the yellow part of the square?"]],
+			[["1"],["1"],["18"],["1"],["9"],["1"],["12"],["What fraction is the blue part of the square?"]],
+			[["2"],["3"],["16"],["1"],["6"],["1"],["12"],["What fraction is the red part of the square?"]],
+			[["2"],["3"],["5"],["1"],["3"],["1"],["4"],["What fraction is the yellow part of the square?"]],	
+			[["3"],["1"],["4"],["1"],["3"],["1"],["6"],["What fraction is the red part of the square?"]],	
+			[["3"],["3"],["14"],["1"],["6"],["3"],["16"],["What fraction is the red part of the square?"]],	
+			[["1"],["1"],["25"],["1"],["6"],["3"],["16"],["What fraction is the yellow part of the square?"]],	
+			[["3"],["1"],["5"],["2"],["3"],["2"],["5"],["What fraction is the blue part of the square?"]]		
+		]
+}
