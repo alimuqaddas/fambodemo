@@ -11,4 +11,5 @@ _Using react and electron_
 **FOR PRODUCTION**
 * Run `npm run postinstall` to compile all your assets into `dist/bundle.js`
 * Change the script tag in `dist/index.html` to use `bundle.js` as its source
+* Remove jquery tags from script: add Electron jquery mechanism
 * Run `npm start` to start electron
