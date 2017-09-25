@@ -6,16 +6,16 @@ const AppTile = props => {
         <div>
             <div className="project-post">
                 <div className="view view-first">
-                  <img src="upload/image1.jpg" alt="" />
+                  <img src={props.src} alt="" />
                   <div className="mask">
                     <div className="top-post">
-                      <h2>Creative Wallpaper</h2>
+                      <h2>{props.gameName}</h2>
                       <div className="post-border"></div>
-                      <p>nature, photography</p>
+                      <p>{props.gameDescription}</p>
                     </div>
                     <div className="bottom-post">
-                      <a className="zoom" href="upload/image1.jpg"><i className="fa fa-search"></i></a>
-                      <a href="#"><i className="fa fa-arrow-right"></i></a>
+                      <a className="zoom" href={props.gamePoster}><i className="fa fa-search"></i></a>
+                      <a href={props.gameLink}><i className="fa fa-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
@@ -25,7 +25,11 @@ const AppTile = props => {
 };
 
 AppTile.propTypes = {
-    
+    src:PropTypes.string.isRequired,
+    gameName:PropTypes.string.isRequired,
+    gameDescription:PropTypes.string.isRequired,
+    gameLink:PropTypes.string.isRequired,
+    gamePoster:PropTypes.string.isRequired
 };
 
 export default AppTile;
