@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 
 const AppTile = props => {
     return (
-        <div>
             <div className="project-post">
                 <div className="view view-first">
                   <img src={props.src} alt="" />
@@ -20,7 +19,6 @@ const AppTile = props => {
                   </div>
                 </div>
               </div>
-        </div>
     );
 };
 
